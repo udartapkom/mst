@@ -1,0 +1,21 @@
+.footer__button {
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    color: #222222;
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    cursor: pointer;
+}
+.footer__button:hover {
+    opacity: .6;
+    transition: linear .3s;
+}
+@media screen and (max-width: 680px){
+    .footer__button {
+        width: 120px;
+        height: 60px;
+    }
+  }

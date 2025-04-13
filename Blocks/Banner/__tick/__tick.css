@@ -1,0 +1,16 @@
+.banner__tick {
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-width: 940px){
+    .banner__tick {
+        width: 32px;
+        height: 32px;
+    }
+}
+@media screen and (max-width: 720px){
+    .banner__tick {
+        width: 24px;
+        height: 24px;
+    }
+}

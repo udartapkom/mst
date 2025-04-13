@@ -1,0 +1,30 @@
+.banner__navigation_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 122%;
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.banner__navigation_link:last-of-type {
+    margin-right: 0;
+}
+.banner__navigation_link:hover {
+    opacity: .6;
+    transition: linear .3s;
+    cursor: pointer;
+}
+@media screen and (max-width: 580px){
+    .banner__navigation_link {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 940px){
+    .banner__navigation_link {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+}

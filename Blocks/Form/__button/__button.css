@@ -1,0 +1,19 @@
+.form__button {
+    border-radius: 5px;
+    background-color: #282829;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 100px;
+    cursor: pointer;
+}
+.form__button:hover {
+    opacity: .6;
+    transition: linear .3s;
+}
+@media screen and (max-width: 940px){
+    .form__button {
+        height: 60px;
+        font-size: 18px;
+    }
+  }

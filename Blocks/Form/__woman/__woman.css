@@ -1,0 +1,38 @@
+.form__woman {
+    display: block;
+    position: absolute;
+    left: 800px;
+    top: -134px;
+    clip-path: polygon(31px 67px, 548px 67px, 539px 854px, 34px 850px);
+    height: 120%;
+}
+ @media screen and (max-width: 1320px){
+    .form__woman {
+        left: 660px;
+    }
+  }
+  @media screen and (max-width: 1280px){
+    .form__woman {
+        top: -100px;
+        height: 115%;
+        left: 620px;
+    }
+  }
+  @media screen and (max-width: 1160px){
+    .form__woman {
+        top: -71px;
+        height: 115%;
+        left: 600px;
+        clip-path: polygon(28px 25px, 524px 27px, 539px 854px, 34px 850px);
+    }
+  }
+  @media screen and (max-width: 940px){
+    .form__woman {
+        left: 400px;
+    }
+  }
+  @media screen and (max-width: 780px){
+    .form__woman {
+        display: none;
+    }
+  }

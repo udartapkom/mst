@@ -1,0 +1,31 @@
+.banner__image {
+    max-width: 760px;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1690px){
+    .banner__image {
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .banner__image {
+        max-width: 550px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .banner__image {
+        max-width: 420px;
+    }
+}
+@media screen and (max-width: 940px){
+    .banner__image {
+        max-width: 420px;
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 580px){
+    .banner__image {
+        display: none;
+    }
+}

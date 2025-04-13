@@ -1,0 +1,20 @@
+.active__text_border {
+    border-bottom: 1px solid #55565a;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 1680px){
+    .active__text_border {
+        padding-top: 0;
+    }
+  }
+  @media screen and (max-width: 1220px){
+    .active__text_border {
+        padding-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 940px){
+    .active__text_border {
+        padding-bottom: 5px;
+    }
+  }

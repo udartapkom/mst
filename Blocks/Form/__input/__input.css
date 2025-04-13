@@ -1,0 +1,22 @@
+.form__input {
+    height: 65px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    appearance: none;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.form__input:last-of-type {
+    margin-bottom: 0;
+}
+  @media screen and (max-width: 940px){
+    .form__input {
+        height: 48px;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .form__input {
+        padding-left: 10px;
+    }
+  }

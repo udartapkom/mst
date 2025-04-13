@@ -1,0 +1,19 @@
+@import url('./_link/_link.css');
+.banner__navigation{
+    display: flex;
+}
+.banner__navigation_off {
+    display: none;
+}
+@media screen and (max-width: 940px){
+    .banner__navigation {
+        flex-direction: column;
+        margin-top: 14px;
+    }
+  }
+@media screen and (max-width: 940px){
+    .banner__navigation {
+        flex-direction: row;
+        margin-top: 0;
+    }
+  }

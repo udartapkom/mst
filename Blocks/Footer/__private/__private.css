@@ -1,0 +1,15 @@
+.footer__private {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__private:hover {
+    opacity: .6;
+    transition: linear .3s;
+}
+@media screen and (max-width: 620px){
+    .footer__private {
+        margin-top: 10px;
+    }
+  }

@@ -1,0 +1,18 @@
+.banner__advantage {
+    display: flex;
+    margin-bottom: 35px;
+    align-items: center;
+}
+.banner__advantage:last-of-type {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1200px){
+    .banner__advantage {
+        margin-bottom: 18px;
+    }
+  }
+@media screen and (max-width: 1200px){
+    .banner__advantage {
+        margin-bottom: 8px;
+    }
+  }

@@ -1,0 +1,15 @@
+.footer_margins {
+    margin-top: 40px;
+    border-bottom: 2px solid #d5c9be;
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 620px){
+    .footer_margins {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+  }

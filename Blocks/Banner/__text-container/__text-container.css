@@ -1,0 +1,17 @@
+.banner__text-container {
+    max-width: 775px;
+    width: 100%;
+}
+@media screen and (max-width: 940px){
+    .banner__text-container  {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .banner__text-container  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

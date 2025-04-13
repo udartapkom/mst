@@ -1,0 +1,13 @@
+.active__text_paddidng {
+    padding-top: 20px;
+}
+@media screen and (max-width: 1220px){
+    .active__text_paddidng {
+        padding-top: 10px;
+    }
+  }
+  @media screen and (max-width: 940px){
+    .active__text_paddidng {
+        padding-top: 5px;
+    }
+  }

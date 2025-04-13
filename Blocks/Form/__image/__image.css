@@ -1,0 +1,8 @@
+.form__image {
+    object-fit: fill;
+}
+@media screen and (max-width: 780px){
+    .form__image {
+        display: none;
+    }
+  }

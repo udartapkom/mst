@@ -1,0 +1,8 @@
+.logo_align {
+    text-align: left;
+}
+@media screen and (max-width: 620px){
+    .logo_align {
+        text-align: center;
+    }
+  }

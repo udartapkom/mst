@@ -1,0 +1,13 @@
+.footer__social-link {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.footer__social-link:hover {
+    opacity: .6;
+    transition: linear .3s;
+}
+@media screen and (max-width: 940px){
+    .footer__social-link {
+        margin-right: 10px;
+    }
+  }
